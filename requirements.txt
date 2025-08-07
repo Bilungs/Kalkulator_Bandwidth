@@ -1,0 +1,15 @@
+asgiref==3.9.1
+bcrypt==4.3.0
+cffi==1.17.1
+cryptography==45.0.5
+-e git+https://github.com/django/django.git@ac2d907f459b2cb7ddea7451764e7020ffee08e6#egg=Django
+django-stubs==5.2.1
+django-stubs-ext==5.2.1
+paramiko==3.5.1
+pycparser==2.22
+PyNaCl==1.5.0
+RouterOS-api==0.21.0
+sqlparse==0.5.3
+types-PyYAML==6.0.12.20250516
+typing_extensions==4.14.1
+tzdata==2025.2
