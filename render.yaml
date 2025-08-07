@@ -1,0 +1,12 @@
+services: 
+  - type: web 
+    name: kalkulator-bandwidth 
+    env: python 
+    buildCommand: pip install -r requirements.txt 
+    startCommand: gunicorn mywebsite.wsgi 
+    envVars: 
+      - key: DJANGO_SETTINGS_MODULE 
+        value: mywebsite.settings 
+      - key: PYTHON_VERSION 
+        value: 3.10 
+  - type: web 
